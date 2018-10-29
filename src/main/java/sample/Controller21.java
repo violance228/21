@@ -44,7 +44,7 @@ public class Controller21 {
         winnOrLose();
     }
 
-    private Map<Integer, String> setRandom() {
+    public Map<Integer, String> setRandom() {
         Random random = new Random();
         Map<Integer, String> result = new LinkedHashMap<>();
 
